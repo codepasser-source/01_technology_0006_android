@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:shareInterpolator="false" >
+
+    <!--
+     android:shareInterpolator="false"  是否使用共享设置
+     @android:anim/accelerate_interpolator 加速
+     @android:anim/decelerate_interpolator 减速
+     @android:anim/accelerate_decelerate_interpolator 开始和结束时慢，中间加速
+     @android:anim/cycle_interpolator 动画执行的次数，正弦曲线
+     @android:anim/linear_interpolator 匀速
+    -->
+    <alpha
+        android:duration="2000"
+        android:fromAlpha="1"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:toAlpha="0" />
+
+    <rotate
+        android:duration="2000"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="+360" />
+
+</set>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_1120_LocalBroadcastManager</string>
+    <string name="list_label">ListActivity!</string>
+    <string name="detail_label">DetailActivity!</string>
+    <string name="send_broadcast_label">send broadcast</string>
+    <string name="start_detail_label">start detail</string>
+
+</resources>

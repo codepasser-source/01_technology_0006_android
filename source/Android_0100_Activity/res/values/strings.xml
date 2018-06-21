@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string name="app_name">Android_0001_Activity TestDemo1</string>
+    <string name="text_content">text content</string>
+    <string name="button_caption">button_caption</string>
+</resources>

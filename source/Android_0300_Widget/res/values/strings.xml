@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidWidget</string>
+    <string name="button_label_editText">EditText Demo</string>
+    <string name="button_label_imagebtn">ImgButton Demo</string>
+    <string name="button_label_spinnerbtn">Spinner Demo</string>
+    <string name="button_label_datepickerbtn">DatePickerDialog Demo</string>
+    <string name="button_label_autocomplete">AutoCompleteTextView Demo</string>
+    <string name="button_label_radiogroup">RadioGroup Demo</string>
+    <string name="button_label_checkbox">CheckBox Demo</string>
+    <string name="button_label_progressbar">ProgressBar Demo</string>
+    <string name="button_label_listview">ListView Demo</string>
+    <string name="button_label_videoview">VideoView Demo</string>
+    <string name="button_label_surfaceview">SurfaceView Demo</string>
+    <string name="button_label_menu">Menu Demo</string>
+    <string name="button_label_expandablelist">ExpandableList Demo</string>
+    <string name="button_label_seekbar">SeekBar Demo</string>
+    <string name="button_label_ratingbar">RatingBar Demo</string>
+    <string name="textview_label">乘以</string>
+    <string name="counter_name">计算</string>
+    <string name="counter_result_name">计算结果</string>
+    <string name="button_caption">计算</string>
+    <string name="exit_caption">退出</string>
+    <string name="about_caption">关于</string>
+    <string name="show_datepicker_caption">显示DatePickerDialog</string>
+    <string name="six_label">性别</string>
+    <string name="six_man_label">男</string>
+    <string name="six_woman_label">女</string>
+    <string name="sports_label">体育</string>
+    <string name="music_label">音乐</string>
+    <string name="art_label">美术</string>
+    <string name="blank_label">NoData</string>    <string-array name="item_array">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+        <item>item6</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+    <Button
+       android:id="@+id/testBT1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="文件是否存在test"
+       />
+     <Button
+       android:id="@+id/testBT2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="创建目录test"
+       />
+       <Button
+       android:id="@+id/testBT3"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="创建文件test"
+       />
+    
+    <Button
+       android:id="@+id/downloadBT1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="下载文件输出内容"
+       />
+     <Button
+       android:id="@+id/downloadBT2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="保存文件到SDCard"
+       />  
+       
+</LinearLayout>

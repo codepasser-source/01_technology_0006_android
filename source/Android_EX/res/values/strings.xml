@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Activity Name -->
+	<string name="MainActivityName">MainActivity</string>
+	<string name="LayoutActivityName">LayoutActivity</string>
+	<string name="WidgetActivityName">WidgetActivity</string>
+	<string name="IntentActivityName">IntentActivity</string>
+	<string name="HandlerActivityName">HandlerActivity</string>
+	<string name="SQLiteActivityName">SQLiteActivity</string>
+	<string name="ContentProviderActivityName">ContentProviderActivity</string>
+
+	<!-- Application -->
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">Android_EX</string>
+	<string name="back">back</string>
+
+	<!-- Main Activity -->
+	<string name="label_sayHello">HelloWorld</string>
+	<string name="label_layout">Layout Demo</string>
+	<string name="label_widget">Widget Demo</string>
+	<string name="label_intent">Intent Demo</string>
+	<string name="label_handler">Handler Demo</string>
+	<string name="label_sqlite">SQLlite Demo</string>
+	<string name="label_provider">ContentProvider Demo</string>
+
+	<!-- HandlerActivity Activity -->
+	<string name="label_handler_start">start</string>
+	<string name="label_handler_end">end</string>
+
+	<!-- SQLiteActivity Activity -->
+	<string name="label_sqlite_create">create</string>
+	<string name="label_sqlite_upgrade">upgrade</string>
+	<string name="label_sqlite_add">add</string>
+	<string name="label_sqlite_delete">delete</string>
+	<string name="label_sqlite_modify">modify</string>
+	<string name="label_sqlite_query">query</string>
+
+	<!-- SQLiteActivity Activity -->
+	<string name="label_provider_add">add</string>
+	<string name="label_provider_delete">delete</string>
+	<string name="label_provider_modify">modify</string>
+	<string name="label_provider_query">query</string>
+	<string name="label_provider_gettype">gettype</string>
+</resources>

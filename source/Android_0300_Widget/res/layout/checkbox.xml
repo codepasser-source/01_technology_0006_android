@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <CheckBox
+         android:id="@+id/sportsCheck" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/sports_label"
+         /> 
+      <CheckBox
+         android:id="@+id/musicCheck" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/music_label"
+         />
+        <CheckBox
+         android:id="@+id/artCheck" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/art_label"
+         /> 
+</LinearLayout>

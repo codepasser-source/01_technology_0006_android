@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Android Lifecycle</string>
+    <string name="first_text">First Activity</string>
+    <string name="second_text">second_text</string>
+    <string name="third_text">third_text</string>
+    <string name="first_button">second Activity</string>
+    <string name="second_button">third Activity</string>
+    <string name="third_button">Send Message</string>
+      
+    <string name="msg_bt">弹出信息</string>
+    <string name="msg_text">信息窗口</string>
+    <string name="msg_ok">ok</string>
+</resources>

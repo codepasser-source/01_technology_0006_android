@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baishui.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0100_EditText" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0200_ImageButton" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0300_Spinner" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0400_DatePicker" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0500_AutoComplete" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0600_RadioGroup" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0700_CheckBox" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0800_ProgressBar" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_0900_ListView" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_1000_VideoView" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_1100_SurfaceView" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_1200_Menu" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_1300_ExpandableList" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_1400_SeekBar" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".Widget_1500_RatingBar" />
+    </application>
+
+</manifest>

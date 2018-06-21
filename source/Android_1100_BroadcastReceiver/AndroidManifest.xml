@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.baishui.android"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <!-- 配置receiver接收器 当intent中的action 为EDIT时即触发当前接收器 -->
+        <receiver android:name="com.baishui.receiver.TestReceiver">
+           <intent-filter>
+              <action android:name="android.intent.action.EDIT" />
+           </intent-filter>
+        </receiver>  
+    </application>
+    
+    
+</manifest>

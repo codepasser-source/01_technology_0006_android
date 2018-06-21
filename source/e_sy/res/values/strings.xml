@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string name="app_name">E手语</string> 
+  
+     <string name="main_menubar1">最新更新</string>
+     <string name="main_menubar2">我的收藏</string>
+     <string name="main_menubar3">词条检索</string>
+     <string name="main_menubar4">最新资讯</string>
+     
+     <string name="newlistActivity_title">最新更新</string>
+     <string name="collectlistActivity_title">我的收藏</string>
+     <string name="seachlistActivity_title">词条检索</string> 
+      
+     <string name="optionsMenu_Option">选项</string>
+     <string name="optionsMenu_Exit">退出</string>
+     <string name="optionsMenu_Back">返回</string>
+      
+     <string name="contextMenu_Logout">注销</string> 
+     <string name="contextMenu_About">关于</string>
+     <string name="contextMenu_Cancel">取消</string>
+     <string name="contextMenu_Exit">退出</string>
+     <string name="contextMenu_Back">返回</string> 
+      
+     <string name="dailog_title">选择您的操作:</string>
+      
+      
+      <!-- 去掉Title style -->
+     <style name="no_title" parent="android:Theme"> 
+         <item name="android:windowNoTitle">true</item>
+     </style>
+      
+</resources>

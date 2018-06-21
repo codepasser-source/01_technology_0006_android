@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="horizontal"
+    android:layout_width="320dip"
+    android:layout_height="80dip" 
+    >  
+   
+      <Button
+        android:id="@+id/collectDailog_play_BT"
+        android:layout_width="90dip"
+        android:layout_height="50dip"
+        android:text="播放" 
+        android:textSize="16px"
+        android:layout_marginLeft="15dip"
+      />
+ 
+      <Button
+        android:id="@+id/collectDailog_delete_BT"
+        android:layout_width="90dip"
+        android:layout_height="50dip"
+        android:text="删除" 
+        android:textSize="16px"  
+      />
+      
+       
+      
+      <Button
+        android:id="@+id/collectDailog_cancel_BT"
+        android:layout_width="90dip"
+        android:layout_height="50dip"
+        android:text="取消" 
+        android:textSize="16px"
+        
+      />
+ 
+</LinearLayout>

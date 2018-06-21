@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+    <Button
+        android:id="@+id/openBT"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="打开WIFI"
+      />
+    <Button
+        android:id="@+id/closeBT"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+         android:text="关闭WIFI"
+      />
+     <Button
+        android:id="@+id/stateBT"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+         android:text="查看WIFI状态"
+      />
+      
+</LinearLayout>

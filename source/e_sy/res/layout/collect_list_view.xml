@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	       android:layout_width="fill_parent" 
+	       android:layout_height="fill_parent"
+	       android:background="@drawable/bg" 
+	       >
+	   
+	    <ImageView
+         android:id="@+id/label_collect"
+         android:src="@drawable/label_collect"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"         
+         android:paddingTop="0px"
+         android:paddingBottom="0px"
+         android:paddingLeft="0px"
+         android:paddingRight="0px"
+         android:layout_marginTop="60dip"
+         android:layout_marginLeft="120dip" 
+       />
+      
+	   <TextView 
+	       android:id="@+id/collcetlist_column1"
+	       android:layout_width="205dip"
+	       android:layout_height="20dip"
+	       android:layout_marginTop="97dip"  
+	       android:textSize="13dip"
+	       android:text="我的收藏" 
+	       android:gravity="left"
+	       android:textColor="#00386B"
+	    />
+	    
+	    <TextView 
+	       android:id="@+id/collcetlist_column2"
+	       android:layout_width="110dip"
+	       android:layout_height="20dip" 
+	       android:textSize="13dip"
+	       android:text="文件大小(KB)" 
+	       android:gravity="right"
+	       android:layout_toRightOf="@id/collcetlist_column1"
+	       android:layout_alignTop="@id/collcetlist_column1"
+	       android:textColor="#00386B"
+	    />
+	    
+		<ListView android:id="@id/android:list" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="330dip"
+			android:drawSelectorOnTop="false"
+			android:scrollbars="vertical"
+            android:layout_below="@id/collcetlist_column1" 
+        />
+             
+       <ImageButton
+         android:id="@+id/main_mb0_bt"
+         android:background="@drawable/menubar_0"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:paddingTop="0px"
+         android:paddingBottom="0px"
+         android:paddingLeft="0px"
+         android:paddingRight="0px"
+      />
+      
+       <ImageButton
+         android:id="@+id/main_mb1_bt"
+         android:background="@drawable/menubar_1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/main_mb0_bt"
+         android:layout_alignParentBottom="true"
+         android:paddingTop="0px"
+         android:paddingBottom="0px"
+         android:paddingLeft="0px"
+         android:paddingRight="0px" 
+      />
+      
+        <ImageButton
+         android:id="@+id/main_mb2_bt"
+         android:background="@drawable/menubar_2_0"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/main_mb1_bt"
+         android:layout_alignParentBottom="true"
+         android:paddingTop="0px"
+         android:paddingBottom="0px"
+         android:paddingLeft="0px"
+         android:paddingRight="0px" 
+         
+      />
+      <ImageButton
+         android:id="@+id/main_mb3_bt"
+         android:background="@drawable/menubar_3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/main_mb2_bt"
+         android:layout_alignParentBottom="true"
+         android:paddingTop="0px"
+         android:paddingBottom="0px"
+         android:paddingLeft="0px"
+         android:paddingRight="0px" 
+      />
+      
+      <ImageButton
+         android:id="@+id/main_mb4_bt"
+         android:background="@drawable/menubar_4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/main_mb3_bt"
+         android:layout_alignParentBottom="true"
+         android:paddingTop="0px"
+         android:paddingBottom="0px"
+         android:paddingLeft="0px"
+         android:paddingRight="0px" 
+      />
+</RelativeLayout> 
+ 

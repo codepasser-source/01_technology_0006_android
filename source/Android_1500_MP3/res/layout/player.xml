@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ <RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    > 
+   <Button
+      android:id="@+id/startBT"
+      android:layout_width="60dip"
+      android:layout_height="wrap_content"
+      android:text="开始"   
+      />
+   <Button
+      android:id="@+id/pauseBT"
+      android:layout_width="60dip"
+      android:layout_height="wrap_content"
+      android:text="暂停" 
+      android:layout_alignTop ="@id/startBT"
+      android:layout_toRightOf="@id/startBT"
+      />
+    <Button
+      android:id="@+id/stopBT"
+      android:layout_width="60dip"
+      android:layout_height="wrap_content"
+      android:text="停止" 
+       android:layout_alignTop ="@id/startBT"
+       android:layout_toRightOf="@id/pauseBT"
+      />
+ 
+      
+      
+    </RelativeLayout>
+ 

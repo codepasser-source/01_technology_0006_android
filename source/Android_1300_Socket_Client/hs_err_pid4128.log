@@ -1,0 +1,83 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=4128, tid=2456
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.3-b02 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00139400):  JavaThread "Unknown thread" [_thread_in_vm, id=2456, stack(0x00340000,0x00390000)]
+
+Stack: [0x00340000,0x00390000]
+
+[error occurred during error reporting (printing native stack), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00139400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=2456, stack(0x00340000,0x00390000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin\javaw.exe
+0x76f90000 - 0x770cc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76d40000 - 0x76e14000 	C:\Windows\system32\kernel32.dll
+0x751b0000 - 0x751fa000 	C:\Windows\system32\KERNELBASE.dll
+0x75890000 - 0x75930000 	C:\Windows\system32\ADVAPI32.dll
+0x770f0000 - 0x7719c000 	C:\Windows\system32\msvcrt.dll
+0x770d0000 - 0x770e9000 	C:\Windows\SYSTEM32\sechost.dll
+0x75db0000 - 0x75e51000 	C:\Windows\system32\RPCRT4.dll
+0x754d0000 - 0x75599000 	C:\Windows\system32\USER32.dll
+0x75800000 - 0x7584e000 	C:\Windows\system32\GDI32.dll
+0x757e0000 - 0x757ea000 	C:\Windows\system32\LPK.dll
+0x75430000 - 0x754cd000 	C:\Windows\system32\USP10.dll
+0x771a0000 - 0x771bf000 	C:\Windows\system32\IMM32.DLL
+0x75e60000 - 0x75f2c000 	C:\Windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\client\jvm.dll
+0x739b0000 - 0x739e2000 	C:\Windows\system32\WINMM.dll
+0x75030000 - 0x7507c000 	C:\Windows\system32\apphelp.dll
+0x6d340000 - 0x6d348000 	D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\hpi.dll
+0x757f0000 - 0x757f5000 	C:\Windows\system32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\verify.dll
+0x6d3e0000 - 0x6d3ff000 	D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	D:\Program Files\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:D:\Program Files\android-sdk-windows\platforms\android-8\android.jar 
+java_command: com.baishui.android.socket.TestSocketClient
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=D:/Program Files/Genuitec/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin/client;D:/Program Files/Genuitec/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Common Files\Lenovo;C:\Program Files\Common Files\Ulead Systems\MPEG;C:\Program Files\Windows Live\Shared;C:\SWTOOLS\ReadyApps;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;D:\Program Files\android-sdk-windows\tools;D:\Program Files\android-sdk-windows\platform-tools
+USERNAME=think
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 4 (8 cores per cpu, 2 threads per core) family 6 model 5 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, ht
+
+Memory: 4k page, physical 2019892k(926672k free), swap 4039784k(2140324k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.3-b02) for windows-x86 JRE (1.6.0_13-b03), built on Mar  9 2009 01:15:24 by "java_re" with MS VC++ 7.1
+
+time: Tue Jun 07 20:55:05 2011
+elapsed time: 0 seconds
+

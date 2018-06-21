@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/editTextTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_editText" />
+
+        <Button
+            android:id="@+id/imageButtonTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_imagebtn" />
+
+        <Button
+            android:id="@+id/spinnerTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_spinnerbtn" />
+
+        <Button
+            android:id="@+id/datePickerTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_datepickerbtn" />
+
+        <Button
+            android:id="@+id/autocompleteTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_autocomplete" />
+
+        <Button
+            android:id="@+id/radioGroupTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_radiogroup" />
+
+        <Button
+            android:id="@+id/checkBoxTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_checkbox" />
+
+        <Button
+            android:id="@+id/progressBarTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_progressbar" />
+
+        <Button
+            android:id="@+id/listViewTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_listview" />
+
+        <Button
+            android:id="@+id/videoViewTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_videoview" />
+
+        <Button
+            android:id="@+id/surfaceViewTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_surfaceview" />
+
+        <Button
+            android:id="@+id/menuTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_menu" />
+
+        <Button
+            android:id="@+id/expandableListTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_expandablelist" />
+        <Button
+            android:id="@+id/seekBarTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_seekbar" />
+        <Button
+            android:id="@+id/ratingBarTestBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_ratingbar" />
+    </LinearLayout>
+
+</ScrollView>

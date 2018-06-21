@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 项目名称-->
+    <string name="app_name">易手语</string>
+    <!-- 主面板标题 --> 
+    <string name="app_caption">E手语</string> 
+    <!-- 首页欢迎词 --> 
+    <string name="welcome">欢迎使用易尚阳光E手语平台</string>
+    
+</resources>

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/alphaBT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="淡入淡出"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/scaleBT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/alphaBT"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="缩放"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/rotateBT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/scaleBT"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="旋转"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/translateBT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rotateBT"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="位移"
+        tools:context=".MainActivity" />
+
+</RelativeLayout>

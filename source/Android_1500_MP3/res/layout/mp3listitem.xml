@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="2dip"
+    android:paddingLeft="2dip"
+    android:paddingRight="2dip"
+    android:paddingBottom="2dip"
+    >
+    <TextView
+          android:id="@+id/mp3Name" 
+          android:layout_width="180dip"
+          android:layout_height="80dip"  
+          android:textSize="10px"
+          />
+    <TextView
+          android:id="@+id/mp3Size" 
+          android:layout_width="180dip"
+          android:layout_height="80dip"  
+          android:textSize="10px"
+          />
+     
+</LinearLayout>

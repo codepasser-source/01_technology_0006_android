@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <!-- 相对布局常用到的属性 
+         
+         android:layout_above       ID 相对之上
+         android:layout_below       ID 相对之下
+         android:layout_toLeftOf    ID 相对之左 
+         android:layout_toRightOf   ID 相对之右 
+    
+         android:layout_alignBaseline   ID 相对baseline对齐
+         android:layout_alignTop        ID 相对上对齐
+         android:layout_alignBottom     ID 相对下对齐
+         android:layout_alignLeft       ID 相对左对齐
+         android:layout_alignRight      ID 相对右对齐
+         
+         
+         android:layout_alignParentLeft    true 相对父控件左端对齐
+         android:layout_alignParentRight   true 相对父控件右端对齐
+         android:layout_alignParentTop     true 相对父控件顶端对齐
+         android:layout_alignParentBottom  true 相对父控件底端对齐
+        
+        
+         android:layout_centerInParent     true 在父控件之中置于水平垂直居中
+         android:layout_centerHorizontal   true 在水平方向处于居中
+         android:layout_centerVertical     true 在垂直方向处于居中
+     -->
+<TextView 
+    android:id="@+id/text" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="text1"
+    android:background="#00aa00"
+    
+    />
+ <EditText
+    android:id="@+id/edit1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="60dip" 
+    android:gravity="top" 
+    android:background="@android:drawable/editbox_background"
+    android:textSize="22px"
+    android:layout_below="@id/text"
+  />   
+   <Button
+    android:id="@+id/button_ok" 
+    android:layout_width="80dip"  
+    android:layout_height="wrap_content"  
+    android:text="ok"
+    android:layout_below="@id/edit1"
+    android:layout_alignParentRight="true"
+  />   
+   <Button
+    android:id="@+id/button_cannel" 
+    android:layout_width="80dip"  
+    android:layout_height="wrap_content"  
+    android:text="cannel"
+    android:layout_below="@id/edit1"
+    android:layout_toLeftOf = "@id/button_ok"
+  />  
+    
+</RelativeLayout>

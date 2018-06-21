@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ 
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0" 
+    >
+    <TableRow>
+       <TextView  
+         android:text="第一行" 
+         android:textSize="8pt"
+         android:background="#aa0000"
+         android:textColor="#FFFFFF" 
+         android:layout_weight="1"  
+      /> 
+      <TextView  
+         android:text="第一行" 
+         android:textSize="8pt"
+         android:background="#00aa00"
+         android:textColor="#FFFFFF" 
+         android:layout_weight="2"  
+      />
+      <TextView  
+         android:text="第一行" 
+         android:textSize="8pt"
+         android:background="#0000aa"
+         android:textColor="#FFFFFF" 
+         android:layout_weight="1"  
+      />
+    </TableRow> 
+    
+    
+  </TableLayout>
+
+ 
+ 

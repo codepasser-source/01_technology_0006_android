@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+   <Button
+     android:id="@+id/createBT"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="创建数据库表"
+     /> 
+     <Button
+     android:id="@+id/upgradeBT"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="更新数据库表"
+     /> 
+     <Button
+     android:id="@+id/insertBT"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="添加"
+     /> 
+      <Button
+     android:id="@+id/deleteBT"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="删除"
+     /> 
+      <Button
+     android:id="@+id/updataBT"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="修改"
+     /> 
+      <Button
+     android:id="@+id/selectBT"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="查询"
+     /> 
+</LinearLayout>

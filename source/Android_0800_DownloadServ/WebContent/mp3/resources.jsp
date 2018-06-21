@@ -1,0 +1,66 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+  String path = request.getContextPath();
+  String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/"; 
+  String requestData = request.getParameter("requestData");
+  System.out.println("requestData:"+requestData);
+%>
+<?xml version="1.0" encoding="utf-8"?> 
+<resources>
+    <resource>
+	    <id>0001</id>
+		<mp3.name>a1.mp3</mp3.name>
+        <mp3.size>3432448</mp3.size>
+		<lrc.name>a1.lrc</lrc.name>
+        <lrc.size>4096</lrc.size> 
+	</resource>
+	 <resource>
+	    <id>0002</id>
+		<mp3.name>a2.mp3</mp3.name>
+        <mp3.size>4104192</mp3.size>
+		<lrc.name>a2.lrc</lrc.name>
+        <lrc.size>4096</lrc.size>
+	</resource>
+    <resource>
+	    <id>0003</id>
+		<mp3.name>a3.mp3</mp3.name>
+        <mp3.size>4603904</mp3.size>
+		<lrc.name>a3.lrc</lrc.name>
+        <lrc.size>4096</lrc.size>
+	</resource>
+	<resource>
+	    <id>0004</id>
+		<mp3.name>a4.mp3</mp3.name>
+        <mp3.size>4603904</mp3.size>
+		<lrc.name>a4.lrc</lrc.name>
+        <lrc.size>4096</lrc.size>
+	</resource>
+	<resource>
+	    <id>0005</id>
+		<mp3.name>a5.mp3</mp3.name>
+        <mp3.size>4603904</mp3.size>
+		<lrc.name>a5.lrc</lrc.name>
+        <lrc.size>4096</lrc.size>
+	</resource>
+	<resource>
+	    <id>0006</id>
+		<mp3.name>a6.mp3</mp3.name>
+        <mp3.size>4603904</mp3.size>
+		<lrc.name>a6.lrc</lrc.name>
+        <lrc.size>4096</lrc.size>
+	</resource>
+	<resource>
+	    <id>0003</id>
+		<mp3.name>a7.mp3</mp3.name>
+        <mp3.size>4603904</mp3.size>
+		<lrc.name>a7.lrc</lrc.name>
+        <lrc.size>4096</lrc.size>
+	</resource>
+	<resource>
+	    <id>0003</id>
+		<mp3.name>a8.mp3</mp3.name>
+        <mp3.size>4603904</mp3.size>
+		<lrc.name>a8.lrc</lrc.name>
+        <lrc.size>4096</lrc.size>
+	</resource>
+</resources>
