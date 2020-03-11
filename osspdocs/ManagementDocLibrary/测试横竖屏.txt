@@ -1,0 +1,48 @@
+注意：onConfigurationChanged事件并不是只有屏幕方向改变才可以触发，其他的一些系统设置改变也可以触发，比如打开或者隐藏键盘。
+
+当我们的屏幕方向发生改变时，就可以触发onConfigurationChanged事件。我们要想当前的activity捕获这个事件，需要做以下这么几件事情。
+
+第一：权限声明：
+
+<uses-permission android:name="android.permission.CHANGE_CONFIGURATION"></uses-permission>
+
+API中说该权限允许我们改变配置信息,但是我们再改变屏幕方向的程序中却并没有用到该权限，是不是相互冲突了呢？这里我们可以这样认为，当我们声明该权限的的时候，系统允许我们通过重写activity中的onConfigurationChanged方法来捕获和修改某些配置信息。
+
+第二：声明activity要捕获的事件类型，
+
+如
+
+<activity
+      android:name=".EX05_23"
+      android:label="@string/app_name"
+      android:configChanges="orientation|keyboard">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+这里一定要声明android:configChanges属性，该属性规定了我们可以在程序中捕获到的事件类型，多个事件类型用|分隔。
+
+如果这里没有orientation，那么我们再程序中是无法捕获到屏幕改变的事件的。
+
+第三：
+
+重写Activity中的onConfigurationChanged方法。
+
+例如：
+
+
+ @Override
+ public void onConfigurationChanged(Configuration newConfig) {
+  // 当新设置中，屏幕布局模式为横排时
+  if(newConfig.orientation == ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE)
+  {
+   //TODO 某些操作 
+  }
+  super.onConfigurationChanged(newConfig);
+ }
+
+
+
+本文来自CSDN博客，转载请标明出处：http://blog.csdn.net/sunny2come/archive/2011/04/28/6369824.aspx
